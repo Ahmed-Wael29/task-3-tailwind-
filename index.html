@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="imgs/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <title>Task3 - Tailwind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="font-sans">
+    <div class="container mx-auto xl:px-32 px-16 pt-14">
+      <div class="flex lg:justify-between flex-col lg:flex-row mb-10">
+        <div class="flex lg:justify-start justify-center lg:mb-0 mb-5">
+          <img src="imgs/logo.svg" alt="Logo" />
+        </div>
+        <ul
+          class="flex justify-center items-center text-gray-600 lg:gap-7 gap-2"
+        >
+          <a href="#" class="hover:text-orange-500 transition-all duration-200"
+            ><li>Home</li></a
+          >
+          <a href="#" class="hover:text-orange-500 transition-all duration-200"
+            ><li>New</li></a
+          >
+          <a href="#" class="hover:text-orange-500 transition-all duration-200"
+            ><li>Popular</li></a
+          >
+          <a href="#" class="hover:text-orange-500 transition-all duration-200"
+            ><li>Trending</li></a
+          >
+          <a href="#" class="hover:text-orange-500 transition-all duration-200"
+            ><li>Categories</li></a
+          >
+        </ul>
+      </div>
+      <div class="flex justify-between lg:flex-row flex-col gap-5 mb-20">
+        <div>
+          <div class="w-full mb-3">
+            <img src="imgs/image-web-3-desktop.jpg" alt="photo" />
+          </div>
+          <div class="flex justify-between lg:flex-row flex-col">
+            <h1
+              class="xl:text-5xl text-2xl font-bold capitalize w-full xl:mr-5"
+            >
+              the bright <br />
+              future of <br />
+              web 3.0 ?
+            </h1>
+            <div class="lg:mt-0 mt-4 mb-8">
+              <p class="text-lg text-gray-400 mb-7">
+                We dive into the next evolution of the web that claims to put
+                the power of the platforms back into the hands of the people.
+                But is it really fulfilling its promise?
+              </p>
+              <a
+                href="#"
+                class="bg-orange-600 px-7 py-1.5 rounded-sm text-lg text-white uppercase font-semibold tracking-wide w-full hover:bg-orange-800 transition-all duration-150"
+                >read more</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="bg-slate-900 text-gray-300 p-3">
+          <h2 class="font-bold xl:text-5xl text-2xl text-amber-500 mb-1">
+            New
+          </h2>
+          <div class="border-b border-b-neutral-600 xl:py-7 py-2">
+            <h3 class="font-bold xl:text-xl text-lg mb-1">
+              Hydrogen VS Electric Cars
+            </h3>
+            <p class="text-neutral-500">
+              Will hydrogen-fueled cars ever catch up to EVs?
+            </p>
+          </div>
+          <div class="border-b border-b-neutral-600 xl:py-7 py-2">
+            <h3 class="font-bold xl:text-xl text-lg mb-1">
+              The Downsides of Al Artistry
+            </h3>
+            <p class="text-neutral-500">
+              What are the possible adverse effects of on-demand Al image
+              generation? Is VC Funding Drying Up?
+            </p>
+          </div>
+          <div class="xl:py-7 py-2">
+            <h3 class="font-bold xl:text-xl text-lg mb-1">
+              Is VC Funding Drying Up?
+            </h3>
+            <p class="text-neutral-500">
+              Private funding by VC firms is down 50% YOY. We take a look at
+              what that means.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="grid lg:grid-cols-3 grid-cols-1 gap-x-5 gap-y-10 mb-16">
+        <div class="flex justify-between">
+          <div>
+            <img
+              class="w-full lg:h-full"
+              src="imgs/image-retro-pcs.jpg"
+              alt=""
+            />
+          </div>
+          <div class="flex justify-center flex-col ml-6">
+            <span class="font-bold text-gray-400 text-4xl top-0 left-0"
+              >01</span
+            >
+            <h2 class="font-bold text-black text-lg">Reviving Retro PCs</h2>
+            <p class="text-justify">
+              What happens when old PCs are given modern upgrades?
+            </p>
+          </div>
+        </div>
+        <div class="flex justify-between">
+          <div>
+            <img
+              class="w-full xl:h-full"
+              src="imgs/image-top-laptops.jpg"
+              alt=""
+            />
+          </div>
+          <div class="flex justify-center flex-col ml-6">
+            <span class="font-bold text-gray-400 text-4xl top-0 left-0"
+              >02</span
+            >
+            <h2 class="font-bold text-black text-lg">Top 10 Laptops of 2022</h2>
+            <p class="text-justify">
+              Our best picks for various needs and budgets.
+            </p>
+          </div>
+        </div>
+        <div class="flex justify-between">
+          <div>
+            <img
+              class="w-full xl:h-full"
+              src="imgs/image-gaming-growth.jpg"
+              alt=""
+            />
+          </div>
+          <div class="flex justify-center flex-col ml-6">
+            <span class="font-bold text-gray-400 text-4xl top-0 left-0"
+              >03</span
+            >
+            <h2 class="font-bold text-black text-lg">The Growth of Gaming</h2>
+            <p class="text-justify">
+              How the pandemic has sparked fresh opportunities.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
